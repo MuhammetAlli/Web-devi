@@ -1,0 +1,75 @@
+	html {
+	  scroll-behavior: smooth;
+	}
+	.header{
+		/*width: 100%;*/
+		height: 200px;
+		background: black;
+		padding-left: 250px;
+		padding-right: 250px;
+	}
+	.logo{
+		width: 250px;
+		padding-top: 25px;
+		display: inline-block;
+	}
+	.menu ul li{
+		display: inline;
+		padding:40px;
+		font-weight: bold;
+	}
+	.menu ul{
+		display: inline-block;
+	}
+	.menu{
+		display: inline-block;
+		padding-left: 475px;
+		position: absolute;
+		top: 75px;
+	}
+	.menu ul li a{
+		text-decoration: none;
+		color: white;
+	}
+	.content{
+		padding-left: 250px;
+		padding-right: 250px;
+	}
+	.solmenu{
+		width: 250px;
+		float: left;
+
+	}
+	.icerik{
+		float: left;
+		padding: 25px;
+		/*background-color: gray;*/
+		position: absolute;
+		left: 550px;
+		right: 250px;
+	}
+	.solmenu ul li{
+		list-style: none;
+		height: 50px;
+		background-color: #eee;
+		padding-left: 25px;
+		padding-top: 25px;
+		display: inline-block;
+		width: 100%;
+		font-weight: bold;
+	}
+	.solmenu ul li:hover{
+		background-color: #ddd;
+	}
+	.solmenu ul{
+		margin: 0px;
+		padding: 0px;
+	}
+	.icerik img{
+		width: 20%;
+		margin-right: 30px;
+	}
+	.solmenu ul a{
+		text-decoration: none;
+		color: black;
+	}
